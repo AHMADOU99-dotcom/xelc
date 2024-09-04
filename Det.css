@@ -1,0 +1,20 @@
+footer{
+    display: flex;
+    flex-direction:column;
+    align-items:normal;
+    color: black;
+}
+
+
+footer h5{
+    margin-top: 20px;
+     font-size: 20px;
+     text-align: center;
+    color: darkmagenta;
+}
+
+footer ol{
+    margin-top: 5px;
+    font-size: 20px;
+    
+}

@@ -1,0 +1,171 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+margin: 10px;
+padding: 10px;
+ box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+  background-image: url('/Image/formation-web.jpg');
+  background-size: cover;
+  
+  
+}
+
+.header-logo {
+display: inline-block;
+width: 90%;
+padding: 1Opx 30px;
+
+}
+.header-logo a {
+    text-decoration: none;
+    color: blueviolet;
+    font-size: 1,5rem;
+    font-weight: bold;
+
+}
+.nav{
+display: inline-block; 
+width: 90%;
+border: solid blueviolet;
+padding: 5px;
+background: blueviolet;
+
+}
+.nav-items {
+    display: inline block;
+    width: calc(70% - 100px);
+    vertical-align: middle;
+    text-align: right ;
+    
+
+}
+.nav-item {
+    display: inline-block;
+    margin: 0px 10px;
+
+
+}
+.nav-item a{
+    text-decoration: none;
+     color: white;
+     font-weight: 600;
+
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: blueviolet;
+   
+
+}
+section h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+section h4{
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+section h5{
+     margin-top: 20px;
+     font-size: 20px;
+     text-align: center;
+     border-bottom: 1px solid cornflowerblue;
+}
+.main{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main .content .card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid cornflowerblue;
+
+}
+
+.main .content .card .left{
+    flex: 0 0 30%;
+    padding: 20px;
+    background: black;
+    color: white;
+}
+.main .content .card.right{
+    flex: 0 0 70%;
+}
+.main .content .card .right img{
+    height: 300px;
+    width: 300px;
+    margin-top: 5px;
+
+}
+
+footer{
+    margin-top: 10%;
+    border-top: 5px solid cornflowerblue;
+    background-color: blueviolet;
+    color: white;
+    padding: 30px 100px;
+
+}
+footer h1{
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 1px solid cornflowerblue;
+    width: 20%;
+    padding-bottom: 5px;
+}
+footer .services{
+    margin-top: -10px;
+    display: flex;
+    flex-wrap:wrap;
+
+
+}
+footer .services .service{
+    margin-right: 30px;
+    padding: 10px;
+
+
+}
+footer .services .service p{
+    max-width: 300px;
+}
+footer #contact{
+    color: white;
+}
+@media screen and (max-width:680px){
+    nav .onglets{
+        margin-left: 0px;
+        margin-bottom: 20px;
+
+    }
+    .main .card{
+        margin: 10px;
+
+    }
+    .main .content .card .right .img{
+        height: 200px;
+        width: 100%;
+        margin-top: 0px;
+    }
+    .main .content .card{
+        display: block;
+    }
+    footer{
+        padding: 30px;
+
+    }
+    
+} 
+
